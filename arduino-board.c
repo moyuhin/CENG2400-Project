@@ -428,7 +428,7 @@ void car_rotate_right(double dir_ang) {
   // CHANGE HERE, drive the car to turn right.
   // similar to car_rotate_left.
    int_ang=0;
- read_angle();     // update the current angle value
+ read_angle();     // update the current angle value  
  cal_angle();      // convert the angle in reference to robot orientation
  while(int_ang<(dir_ang)){
     // CHANGE HERE, drive the car to turn left.
